@@ -75,33 +75,3 @@ This is used when we should not be seeing somedata points that we have seen in t
 
 For eg, if there are pictures of cancer patients, we should make sure that the pictures of same patient doesn't apprear in both training and testing set. So, a careful staraegy should be used to split the data into training and testing set.
 
-# Chapter 3: Evaluation Metrics for supervised learning
-
-## Classification Metrics
-
-* Accuracy
-* Precision ( P )
-* Recall ( R )
-* F1 Score ( F1 )
-* Area under the ROC ( Receiver Operating Characteristic ) curve ( AUC )
-* Log loss
-* Precision at k ( P @ k )
-* Average  precision at k ( AP @ k )
-* Mean average precision at k ( MAP @ k )
-
-## Regression Metrics
-
-* Mean Absolute Error ( MAE )
-* Mean squared error ( MSE )
-* Root mean squared error ( RMSE )
-* Root mean squared log error ( RMSLE )
-* Mean precentage error ( MPE )
-* Mean absolute percentage error ( MAPE )
-* $R^2$ score
-
-### Notes :
-
-* We should know which metric to use
-* It depends on the kind of data and mostly **about the targets**
-
-
